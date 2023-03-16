@@ -1,0 +1,48 @@
+@import url("./options.css");
+@import url("./popup.css");
+@import url("https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap");
+
+* {
+  font-family: "Cutive Mono", monospace;
+  box-sizing: border-box;
+}
+
+/* Utility classes */
+.column {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.row {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.inline,
+.inline button {
+  display: inline;
+}
+
+.over-under {
+  text-decoration: overline underline;
+  text-shadow: -3px 3px rgba(0, 0, 0, 0.1);
+}
+
+.hr-lg {
+  width: 66%;
+  height: 3px;
+}
+.hr-sm {
+  width: 33%;
+  height: 2px;
+  margin: 2rem auto;
+}
+.hr-lg,
+.hr-sm {
+  border-radius: 100%;
+}

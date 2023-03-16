@@ -1,0 +1,66 @@
+body.popup {
+  min-width: 325px;
+  max-height: 100vh;
+  margin-bottom: 0;
+}
+
+header.popup-header {
+  margin-bottom: 3rem;
+}
+
+header.popup-header,
+footer.popup-footer {
+  width: 100vw;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+footer.popup-footer {
+  margin-top: 3rem;
+  justify-content: center;
+}
+
+main.popup-sections {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  width: 90%;
+}
+
+section.column {
+  width: 100%;
+}
+
+#bg-color,
+#text-color {
+  width: 11%;
+  height: 1rem;
+  border: 2px solid black;
+  margin-left: 1rem;
+}
+
+#analyze-page {
+  background-color: black;
+  border-radius: 3px;
+  color: white;
+  height: 3rem;
+}
+
+.settings-btn {
+  border: none;
+  background-color: white;
+  width: 66vw;
+  border-radius: 6px;
+  margin: 2rem auto;
+}
+
+button:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+button.current-bg,
+button.current-text {
+  box-shadow: 0 0 0 2px white, 0 0 0 4px black;
+}

@@ -1,0 +1,55 @@
+body {
+  box-sizing: border-box;
+  width: 90vw;
+  margin: 0 auto;
+}
+
+header.options-header {
+  margin-top: 3rem;
+}
+
+section.option {
+  max-width: 600px;
+  margin: 2rem auto;
+}
+
+.option-header {
+  font-size: 1.11rem;
+  margin-left: 5vw;
+  text-decoration: overline;
+  margin-top: 3rem;
+}
+
+.sub-option > h4 {
+  margin-left: 9vw;
+}
+
+.sub-option > div {
+  margin: 1rem auto;
+}
+
+#bg-color-div,
+#text-color-div {
+  max-width: 50%;
+  margin-bottom: 1rem;
+}
+
+.bg-color-btn,
+.text-color-btn {
+  margin: 0 10px;
+
+  width: 20px;
+  height: 20px;
+}
+
+#analysis-iframe {
+  width: 200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  margin: 0 auto;
+}
